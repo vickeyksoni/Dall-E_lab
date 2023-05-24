@@ -1,0 +1,21 @@
+{
+	"id": "8701b7c8-03f7-ff46-1d81-609f0c043eef",
+	"title": "Coding Pages",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "files/example.html",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

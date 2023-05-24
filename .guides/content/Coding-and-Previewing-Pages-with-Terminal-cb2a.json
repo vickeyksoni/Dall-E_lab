@@ -1,0 +1,30 @@
+{
+	"id": "cb2a051f-3991-0f8d-976d-280a5b8ce9b5",
+	"title": "Coding and Previewing Pages with Terminal",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "files/example.html",
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"action": "open"
+		},
+		{
+			"path": "#preview: files/example.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}

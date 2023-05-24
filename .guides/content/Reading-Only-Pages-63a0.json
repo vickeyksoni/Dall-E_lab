@@ -1,0 +1,17 @@
+{
+	"id": "63a01081-1ded-fdbc-7cd4-a36509a674df",
+	"title": "Reading-Only Pages",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel"
+}

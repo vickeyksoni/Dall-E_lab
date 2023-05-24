@@ -1,0 +1,17 @@
+{
+	"id": "aa8681ee-a923-3fa7-30c5-60b06e4e668a",
+	"title": "Learning Objectives",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel"
+}

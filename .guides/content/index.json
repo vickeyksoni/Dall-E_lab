@@ -1,0 +1,22 @@
+{
+	"title": "Project Template for Max",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Learning-Objectives-aa86",
+		"Reading-Only-Pages-63a0",
+		"Coding-Pages-8701",
+		"Coding-and-Previewing-Pages-7638",
+		"Coding-and-Previewing-Pages-with-Terminal-cb2a"
+	]
+}

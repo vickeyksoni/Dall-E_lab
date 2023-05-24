@@ -1,0 +1,26 @@
+{
+	"id": "7638a865-9e4a-57b3-3031-70da4a576f00",
+	"title": "Coding and Previewing Pages",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "files/example.html",
+			"action": "open"
+		},
+		{
+			"path": "#preview: files/example.html",
+			"panel": 1,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}

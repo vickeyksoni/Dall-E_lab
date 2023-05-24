@@ -1,0 +1,38 @@
+name: codio-publish
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  build:
+    permissions:
+      contents: read
+      id-token: write
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - run: echo "Remove ME!"
+
+#       - name: Import Secrets
+#         uses: hashicorp/vault-action@v2
+#         id: secrets        
+#         with:
+#           url: https://vault.codiodev.com:8020/ 
+#           role: content
+#           method: jwt
+#           secrets: |
+#               kv/data/content/codio-ed-dev client_id;
+#               kv/data/content/codio-ed-dev secret_id;
+#       - name: Publish to Codio
+#         uses: codio/codio-assignment-publish-action@master
+#         with:
+#           client-id: ${{ steps.secrets.outputs.client_id }}
+#           secret-id: ${{ steps.secrets.outputs.secret_id }}
+#           course-name: <Course Name>
+#           assignment-name: <Assignment Name>
+#           dir: ./
+#           changelog: ${{ github.event.head_commit.message }}
